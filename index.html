@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&display=swap" rel="stylesheet"> 
@@ -15,9 +14,79 @@
         <div class="img-description">
             <p class="img-info">Photo by Quinta-Maloze</p>
             <a href="https://github.com/asad0306/sign-up-form/blob/main/Jaan.jpeg?raw=true">
-                <p class="img-info">https://github.com/asad0306/sign-up-form/blob/main/Jaan.jpeg?raw=true"</p>
+                <p class="img-info">"https://github.com/asad0306/sign-up-form/blob/main/Jaan.jpeg?raw=true"</p>
             </a>
         </div>
+    </div>
+    <div class="form">
+        <div class="form-info">
+            <h1>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
+                Sign up <i>now</i> to get started.
+                <br>
+                You <i>know</i> you want to.
+            </h1>
+        </div>
+        <form action="" method="post">
+            <h1>Lets's do this !</h1>
+            <div class="inputs">
+                <div class="first-name">
+                    <input
+                        required
+                        type="text" 
+                        class="form-input" 
+                        id="fname" 
+                        placeholder="FIRST NAME">
+                    <label for="fname" class="form-label">FIRST NAME:</label>    
+                </div>
+                <div class="last-name">
+                    <input 
+                        type="text" 
+                        class="form-input" 
+                        id="lName" 
+                        placeholder="LAST NAME" 
+                        required>
+                    <label for="lName" class="form-label">LAST NAME:</label>    
+                </div>
+            </div>
+                <div class="inputs">
+                <div class="email-id">
+                    <input type="email" 
+                    class="form-input" 
+                    id="email" 
+                    placeholder="EMAIL ADDRESS" required>
+                    <label for="email" class="form-label">EMAIL ID:</label>    
+                </div>
+                <div class="number">
+                    <input type="tel" 
+                    class="form-input" 
+                    id="tel" 
+                    placeholder="TELEPHONE NUMBER" required>
+                    <label for="tel" class="form-label">TELEPHONE NUMBER:</label>    
+                </div>
+            </div>
+            <div class="inputs">
+                <div class="pass">
+                    <input type="password" 
+                    class="form-input" 
+                    id="password" 
+                    placeholder="PASSWORD" required>
+                    <label for="password" class="form-label">PASSWORD:</label>    
+                </div>
+                <div class="cPass">
+                    <input type="password" 
+                    class="form-input" 
+                    id="cPass" 
+                    placeholder="CONFIRM PASSWORD" required>
+                    <label for="cPass" class="form-label">CONFIRM PASSWORD:</label>    
+                </div>
+            </div>
+            <div class="form-end">
+                <div class="errorMessage">Error Placeholder</div>
+                <button class="btn" type="submit">Create Account</button>
+                <h1>Already have an account? <a href="" class="login">Log In</a></h1>
+            </div>
+        </form>
     </div>
 </body>
 </html>
