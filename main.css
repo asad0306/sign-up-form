@@ -13,7 +13,7 @@ body {
     width: 40%;
     height: 96%;
     margin: 1% 1% 1% 1%;
-    background: url(Black.jpg) no-repeat center;
+    background: url(https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7895.jpg?w=2000) no-repeat center;
     background-size: cover;
     align-content: center;
     justify-content: center;
@@ -31,6 +31,8 @@ body {
     1px 1px 0 #000;
     background-color: rgba(0, 0, 0, 0.472);
     padding: 5px;
+    width: 100%;
+    text-align: center;
 }
 
 a {
@@ -87,7 +89,7 @@ form {
     padding-top: 3%;
     width: 75%;
     margin-left: 0%;
-    background-color: rgb(236, 177, 187);
+    background-color: rgb(84, 238, 143);
     box-shadow: 2px 0.5px 1px rgba(0, 0, 0, 0.1),
     inset 2px 0.5px 0.5px rgba(255, 255, 255, 0.5),
     0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
@@ -152,15 +154,16 @@ form {
 }
 
 .img-logo {
-    width: 10%;
+    width: 7%;
     height: fit-content;
     position: fixed;
-    margin-left: 2.5%;
+    margin-right: 25%;
     background-color: rgba(0, 0, 0, 0.178);
 }
 
 .odin-img {
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.472);
 }
 
 
