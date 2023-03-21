@@ -151,5 +151,16 @@ form {
     color: rebeccapurple;
 }
 
+.img-logo {
+    width: 10%;
+    height: fit-content;
+    position: fixed;
+    margin-left: 2.5%;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+.odin-img {
+    width: 100%;
+}
 
 
